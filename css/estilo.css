@@ -1,0 +1,57 @@
+/* Estilos para el formulario de registro e inicio de sesion */
+
+.formlogin{
+    width: 60%;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h2.formlogin{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(0,0,0,0.5)
+}
+
+.formlogin input{
+    padding: 5px;
+    width: 100%;
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.formlogin input[type="submit"]{
+    background: #31384A;
+    color: #fff;
+    border: 0;
+    width: 50%;
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 20px;
+    /*margin-bottom: 0;*/
+    margin: auto;
+    margin-top: 30px;
+}
+
+.formlogin input[type="submit"]:hover{
+    opacity: 1;
+}
+
+.formlogin input[type="submit"]:active{
+    transform: scale(0.95);
+}
+
+@media (max-width:768px){
+    .formlogin{
+      width: 75%;
+    }
+  }
+  
+  @media (max-width:480px){
+    .formlogin {
+      width: 95%;
+    }
+  }

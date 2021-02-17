@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registro</title>
+        <meta http-equiv="Contect-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="..\css\estilo.css">
+    </head>
+    <body>
+    <div class="formlogin">
+        <h2>Registro</h2>
+        <form action="../db/registro.php" method="post">
+        <label>Nombre de usuario:</label><input type="text" name="username" id="username"><span id="spannom"></span>
+        <label>Contraseña:</label><input type="password" name="password" id="password">
+        <label>Repita contraseña:</label><input type="password" name="pass2" id="pass2"><span id="spanpass"></span>
+        <input type="submit" value="Enviar" name="submit">
+    </form>
+    </div>
+    </body>
+</html>
